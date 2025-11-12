@@ -38,7 +38,7 @@ public class repo {
             int idCourse = Integer.parseInt(courseLineSplit[0]);
 
             if(idClass == idCourse){
-                int id = Integer.parseInt(courseLineSplit[0]);
+                String id = courseLineSplit[0];
                 String firstName = classLineSplit[0];
                 String lastName = classLineSplit[1];
                 double avg = (Integer.parseInt(courseLineSplit[1])+Integer.parseInt(courseLineSplit[2]))/2.0;
